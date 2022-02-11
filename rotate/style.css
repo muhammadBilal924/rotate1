@@ -1,0 +1,18 @@
+div{
+ position: absolute;
+  left: 40px;
+  top: 40px;
+ width:100px;
+ height: 100px;
+ background-color: lightblue;
+   
+}
+.rotate{
+    background-color: transparent;
+    outline: 3px dashed;
+    transform: rotate(45deg);
+}
+.rotate-translate{
+    background-color: pink;
+    transform: rotate(45deg)translateX(180px);
+}
